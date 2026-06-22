@@ -1,0 +1,42 @@
+# Rapport d'incident — Web reconnaissance correlation
+
+## Identification
+
+- **Identifiant :** INC-D6AB271A08C3
+- **Horodatage de détection :** 2026-06-21T12:04:00+00:00
+- **Sévérité :** Medium
+- **Confiance :** 90%
+- **Statut :** open
+
+## Périmètre
+
+- **Adresse source :** 192.168.231.1
+- **Adresse destination :** 192.168.231.129
+- **Hôte affecté :** ubuntu2404
+- **Type :** SIEM correlated alert
+- **MITRE ATT&CK :** Initial Access / T1190 - Exploit Public-Facing Application
+
+## Éléments de preuve
+
+- Splunk correlation search matched sensitive path enumeration
+
+## Analyse SOC
+
+L'alerte SIEM liée à la corrélation a été émise avec une sévéritité moyenne, indiquant que l'incident pourrait potentner affecter les opérations mais n'est pas immédiatement critique. La confiance de 0.9 suggère qu'il y a un fort niveau d'assurance dans la validité des preuves fournies par le SIEM, qui incluent une recherche de corrélation au sein du système Splunk ayant révélé une tentative d'enumeration sensible sur les chemins. La source et la destination pointent vers un réseau interne avec l'adresse IP 192.168.231.1 envoie des données à 192.168.231.129, ce qui pourrait indiquer une communication non autorisée ou suspecte entre les machines au sein de la même infrastructure réseau.
+
+## Mesures recommandées
+
+Il est recommandé d'enquêter immédiatement sur cette alerte SIEM en se concentrant particulièrement sur le flux de données interne et l'authentification des utilisateurs impliqués dans les transferts à destination 192.168.231.129 depuis la source IP 192.168.231.1, en sachant que cette alerte a été émise avec une forte confiance et un niveau de menace moyen. Il est également conseillé d'examiner les journaux Splunk pour identifier toute activité suspecte liée à l'enumeration des chemins sensibles qui aurait pu être effectuée, afin de comprendre la nature exacte du risque potentiel et prendre les mesures appropriées.
+
+## Actions de réponse simulées
+
+- SIMULATED_NOTIFY_ADMIN : notification locale auditée.
+- SIMULATED_CREATE_TICKET : création d'un ticket fictif.
+- SIMULATED_REMEDIATION_PLAYBOOK : préparation d'une remédiation contrôlée.
+- SIMULATED_MARK_CONTAINED : passage au statut de confinement simulé.
+
+Ces actions sont ajoutées au journal d'audit après génération du rapport. Aucun blocage, isolement ou changement système réel n'est exécuté.
+
+## Limites
+
+Cette analyse est produite à partir des seuls journaux disponibles. La corrélation et l'explication du SLM peuvent contenir des incertitudes. Une validation humaine et des sources complémentaires sont nécessaires avant toute réponse réelle.

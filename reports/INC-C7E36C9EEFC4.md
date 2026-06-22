@@ -1,0 +1,44 @@
+# Rapport d'incident — Reconnaissance web depuis 192.168.231.1
+
+## Identification
+
+- **Identifiant :** INC-C7E36C9EEFC4
+- **Horodatage de détection :** 2026-06-21T12:00:04+00:00
+- **Sévérité :** Medium
+- **Confiance :** 75%
+- **Statut :** open
+
+## Périmètre
+
+- **Adresse source :** 192.168.231.1
+- **Adresse destination :** Non déterminée
+- **Hôte affecté :** Non déterminé
+- **Type :** Web reconnaissance
+- **MITRE ATT&CK :** Reconnaissance / T1595 - Active Scanning
+
+## Éléments de preuve
+
+- GET /.env -> 404
+- GET /wp-admin -> 404
+- GET /phpmyadmin -> 404
+
+## Analyse SOC
+
+L'incident en question est une reconnaissance web qui s'est produite avec un niveau de sévéritité médium, ce qui indique que l'attaque a pu perturber les services d'une certaine manière sans causer de dommages irréparables. La confiance dans cette analyse est élevée à 0 endommager le système ou révéler des données sensibles en raison du manque de preuves directes indiquant un accès non autorisé aux données personnelles, telles que les fichiers .env qui contiennent souvent des informations d'authentification. La source est identifiée comme étant 192.168.231.1, une adresse IP privée couramment utilisée pour le test et la configuration interne au sein de l'infrastructure réseau avant son déploiement sur Internet public. Il y a trois preuves distinctes indiquant des erreurs 404 dans les chemins spécifiques, ce qui suggère que quelqu'un essaie d'accéder à des ressources non accessibles ou mal configurées pourrait être impliqué.
+
+## Mesures recommandées
+
+Il est recommandé de renforcer la sécurité du réseau en mettant régulièrement à jour les systèmes et applications, y compris le pare-feu et tout logiciel antivirus installés. Une évaluation approfondie des politiques d'authentification doit être effectuée pour s'assurer que seules les personnes autorisées peuvent accéder aux chemins sensibles tels que /wp-admin ou /phpmyadmin, en utilisant par exemple le chiffrement de l'environnement et la gestion des mots de passe. Il est également conseillé d'examiner attentivement les journaux pour identifier toute activité suspecte provenant de 192.168.231.1 ou ailleurs, en s'assurant que toutes les connexions sont légitimes et nécessaires à l'entreprise. Enfin, une formation continue des employés sur la sécurisation des ressources web pourrait prévenir de futures tentatives d'accès non autorisé.
+
+## Actions de réponse simulées
+
+- SIMULATED_NOTIFY_ADMIN : notification locale auditée.
+- SIMULATED_CREATE_TICKET : création d'un ticket fictif.
+- SIMULATED_REMEDIATION_PLAYBOOK : préparation d'une remédiation contrôlée.
+- SIMULATED_MARK_CONTAINED : passage au statut de confinement simulé.
+
+Ces actions sont ajoutées au journal d'audit après génération du rapport. Aucun blocage, isolement ou changement système réel n'est exécuté.
+
+## Limites
+
+Cette analyse est produite à partir des seuls journaux disponibles. La corrélation et l'explication du SLM peuvent contenir des incertitudes. Une validation humaine et des sources complémentaires sont nécessaires avant toute réponse réelle.
