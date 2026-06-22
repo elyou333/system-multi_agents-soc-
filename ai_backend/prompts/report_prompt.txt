@@ -1,0 +1,3 @@
+Rédige un rapport d'incident professionnel en français, factuel, concis et
+auditable. N'invente aucun IOC. Rappelle que toute réponse de ce laboratoire est
+simulée et qu'une validation humaine est nécessaire.

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-06-21T20:29:15.852938+00:00",
+  "ground_truth": {
+    "SSH brute force suspicion|192.168.231.1": 1,
+    "Web reconnaissance|192.168.231.1": 1,
+    "HTTP connection alert|192.168.231.1": 2,
+    "Suspicious system activity|192.168.231.1": 1,
+    "Suspicious system activity|unknown": 1,
+    "SIEM correlated alert|192.168.231.1": 2
+  },
+  "detection_metrics": {
+    "true_positive": 8,
+    "false_positive": 0,
+    "false_negative": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "performance": {
+    "deterministic": {
+      "runs": 3,
+      "ollama_enabled": false,
+      "duration_mean_seconds": 0.0138,
+      "duration_std_seconds": 0.0078,
+      "peak_memory_mean_mb": 0.074,
+      "incidents_per_run": 8,
+      "predicted": {
+        "SIEM correlated alert|192.168.231.1": 2,
+        "SSH brute force suspicion|192.168.231.1": 1,
+        "HTTP connection alert|192.168.231.1": 2,
+        "Suspicious system activity|unknown": 1,
+        "Web reconnaissance|192.168.231.1": 1,
+        "Suspicious system activity|192.168.231.1": 1
+      }
+    },
+    "ollama_phi3": {
+      "runs": 3,
+      "ollama_enabled": true,
+      "duration_mean_seconds": 27.204,
+      "duration_std_seconds": 1.6087,
+      "peak_memory_mean_mb": 9.069,
+      "incidents_per_run": 8,
+      "predicted": {
+        "SIEM correlated alert|192.168.231.1": 2,
+        "SSH brute force suspicion|192.168.231.1": 1,
+        "HTTP connection alert|192.168.231.1": 2,
+        "Suspicious system activity|unknown": 1,
+        "Web reconnaissance|192.168.231.1": 1,
+        "Suspicious system activity|192.168.231.1": 1
+      }
+    }
+  }
+}

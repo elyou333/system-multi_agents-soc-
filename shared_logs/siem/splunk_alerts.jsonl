@@ -1,0 +1,1 @@
+{"result":{"_time":"2026-06-21T12:04:00+00:00","search_name":"Web reconnaissance correlation","severity":"medium","src_ip":"192.168.231.1","dest_ip":"192.168.231.129","dest_port":80,"host":"ubuntu2404","protocol":"http","message":"Splunk correlation search matched sensitive path enumeration"}}

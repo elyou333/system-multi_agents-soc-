@@ -1,0 +1,4 @@
+06/20/2026-22:49:16.830555  [**] [1:1000001:1] SOC LAB - HTTP connection to Apache [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.231.1:65249 -> 192.168.231.128:80
+06/20/2026-22:49:32.220019  [**] [1:1000001:1] SOC LAB - HTTP connection to Apache [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.231.1:57506 -> 192.168.231.128:80
+06/20/2026-22:49:32.231657  [**] [1:1000001:1] SOC LAB - HTTP connection to Apache [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.231.1:54876 -> 192.168.231.128:80
+06/21/2026-18:08:23.983061  [**] [1:2210016:2] SURICATA STREAM CLOSEWAIT FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.231.129:22 -> 192.168.231.1:57984

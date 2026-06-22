@@ -1,0 +1,11 @@
+pydantic>=2.7,<3
+python-dotenv>=1.0
+langgraph>=0.2
+langchain>=0.3
+langchain-ollama>=0.2
+pandas>=2.2
+streamlit>=1.40
+altair>=5.0
+paramiko>=3.5
+rich>=13.9
+pytest>=8.0

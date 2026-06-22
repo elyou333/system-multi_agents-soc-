@@ -1,0 +1,1 @@
+{"_source":{"@timestamp":"2026-06-21T12:03:00+00:00","event":{"kind":"alert","severity":75},"kibana":{"alert":{"rule":{"name":"Possible credential access after SSH failures"},"severity":"high"}},"source":{"ip":"192.168.231.1"},"destination":{"ip":"192.168.231.129","port":22},"host":{"name":"ubuntu2404"},"message":"Elastic detection rule matched repeated authentication failures"}}

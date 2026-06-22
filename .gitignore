@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+soc_ai.db
+reports/*.md
+audit/*.log
+audit/*.txt
+venv/
+.venv/
+.uv-cache/
+.uv-python/

@@ -1,0 +1,648 @@
+2024-04-29T19:51:13.407349+00:00 ubuntu2404 systemd-logind[1027]: New seat seat0.
+2024-04-29T19:51:13.407353+00:00 ubuntu2404 systemd-logind[1027]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-04-29T19:51:13.407358+00:00 ubuntu2404 systemd-logind[1027]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2024-04-29T19:51:13.387400+00:00 ubuntu2404 polkitd[1020]: Loading rules from directory /etc/polkit-1/rules.d
+2024-04-29T19:51:13.389533+00:00 ubuntu2404 polkitd[1020]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-04-29T19:51:13.423751+00:00 ubuntu2404 polkitd[1020]: Finished loading, compiling and executing 15 rules
+2024-04-29T19:51:13.429479+00:00 ubuntu2404 polkitd[1020]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-04-29T19:51:17.606007+00:00 ubuntu2404 useradd[1420]: new group: name=ubuntu, GID=1000
+2024-04-29T19:51:17.606134+00:00 ubuntu2404 useradd[1420]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+2024-04-29T19:51:17.607035+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to group 'adm'
+2024-04-29T19:51:17.607112+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to group 'cdrom'
+2024-04-29T19:51:17.607167+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to group 'sudo'
+2024-04-29T19:51:17.609613+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to group 'dip'
+2024-04-29T19:51:17.609720+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to group 'plugdev'
+2024-04-29T19:51:17.609773+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to group 'users'
+2024-04-29T19:51:17.609818+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to group 'lpadmin'
+2024-04-29T19:51:17.609842+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to shadow group 'adm'
+2024-04-29T19:51:17.609866+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to shadow group 'cdrom'
+2024-04-29T19:51:17.609902+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to shadow group 'sudo'
+2024-04-29T19:51:17.609927+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to shadow group 'dip'
+2024-04-29T19:51:17.609950+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to shadow group 'plugdev'
+2024-04-29T19:51:17.609974+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to shadow group 'users'
+2024-04-29T19:51:17.610001+00:00 ubuntu2404 useradd[1420]: add 'ubuntu' to shadow group 'lpadmin'
+2024-04-29T19:51:23.129978+00:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-04-29T19:51:23.164460+00:00 ubuntu2404 systemd-logind[1027]: New session c1 of user gdm.
+2024-04-29T19:51:23.288335+00:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-04-29T19:51:26.798483+00:00 ubuntu2404 polkitd[1020]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-04-29T19:51:53.428064+00:00 ubuntu2404 gdm-password]: gkr-pam: unable to locate daemon control file
+2024-04-29T19:51:53.428206+00:00 ubuntu2404 gdm-password]: gkr-pam: stashed password to try later in open session
+2024-04-29T19:51:53.441418+00:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-04-29T19:51:53.464010+00:00 ubuntu2404 systemd-logind[1027]: New session 2 of user ubuntu.
+2024-04-29T19:51:53.504829+00:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-04-29T19:51:53.903761+00:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2024-04-29T19:51:54.857637+00:00 ubuntu2404 gnome-keyring-daemon[2484]: The Secret Service was already initialized
+2024-04-29T19:51:54.857977+00:00 ubuntu2404 gnome-keyring-daemon[2484]: The PKCS#11 component was already initialized
+2024-04-29T19:51:54.859050+00:00 ubuntu2404 gnome-keyring-daemon[2795]: discover_other_daemon: 1
+2024-04-29T19:51:54.859474+00:00 ubuntu2404 gnome-keyring-daemon[2793]: discover_other_daemon: 1
+2024-04-29T19:51:54.862073+00:00 ubuntu2404 gnome-keyring-daemon[2796]: discover_other_daemon: 1
+2024-04-29T19:51:57.036441+00:00 ubuntu2404 polkitd[1020]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-04-29T19:52:02.132785+00:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-04-29T19:52:02.163957+00:00 ubuntu2404 systemd-logind[1027]: Session c1 logged out. Waiting for processes to exit.
+2024-04-29T19:52:02.194416+00:00 ubuntu2404 polkitd[1020]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-04-29T19:52:02.202779+00:00 ubuntu2404 systemd-logind[1027]: Removed session c1.
+2024-04-29T19:53:58.946059+00:00 ubuntu2404 dbus-daemon[2483]: [session uid=1000 pid=2483] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+2024-04-29T19:55:01.401200+00:00 ubuntu2404 dbus-daemon[2483]: [session uid=1000 pid=2483] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+2024-04-29T19:55:02.003935+00:00 ubuntu2404 CRON[3699]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-04-29T19:55:02.008013+00:00 ubuntu2404 CRON[3699]: pam_unix(cron:session): session closed for user root
+2024-04-29T16:09:16.095453-04:00 ubuntu2404 systemd-logind[711]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-04-29T16:09:16.095508-04:00 ubuntu2404 systemd-logind[711]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2024-04-29T16:09:16.095513-04:00 ubuntu2404 systemd-logind[711]: New seat seat0.
+2024-04-29T16:09:16.120133-04:00 ubuntu2404 polkitd[690]: Loading rules from directory /etc/polkit-1/rules.d
+2024-04-29T16:09:16.126921-04:00 ubuntu2404 polkitd[690]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-04-29T16:09:16.212854-04:00 ubuntu2404 polkitd[690]: Finished loading, compiling and executing 15 rules
+2024-04-29T16:09:16.223676-04:00 ubuntu2404 polkitd[690]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-04-29T16:09:18.467354-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-04-29T16:09:18.526007-04:00 ubuntu2404 systemd-logind[711]: New session c1 of user gdm.
+2024-04-29T16:09:18.568266-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-04-29T16:09:22.702991-04:00 ubuntu2404 polkitd[690]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-04-29T16:09:39.590442-04:00 ubuntu2404 gdm-password]: gkr-pam: unable to locate daemon control file
+2024-04-29T16:09:39.590532-04:00 ubuntu2404 gdm-password]: gkr-pam: stashed password to try later in open session
+2024-04-29T16:09:39.602286-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-04-29T16:09:39.625228-04:00 ubuntu2404 systemd-logind[711]: New session 2 of user ubuntu.
+2024-04-29T16:09:39.657045-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-04-29T16:09:40.012847-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2024-04-29T16:09:40.816079-04:00 ubuntu2404 gnome-keyring-daemon[1762]: The Secret Service was already initialized
+2024-04-29T16:09:40.816409-04:00 ubuntu2404 gnome-keyring-daemon[1762]: The PKCS#11 component was already initialized
+2024-04-29T16:09:40.817946-04:00 ubuntu2404 gnome-keyring-daemon[1965]: discover_other_daemon: 1
+2024-04-29T16:09:40.818336-04:00 ubuntu2404 gnome-keyring-daemon[1967]: discover_other_daemon: 1
+2024-04-29T16:09:40.819145-04:00 ubuntu2404 gnome-keyring-daemon[1968]: discover_other_daemon: 1
+2024-04-29T16:09:43.442490-04:00 ubuntu2404 polkitd[690]: Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-04-29T16:09:46.287148-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-04-29T16:09:46.318973-04:00 ubuntu2404 systemd-logind[711]: Session c1 logged out. Waiting for processes to exit.
+2024-04-29T16:09:46.324406-04:00 ubuntu2404 polkitd[690]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-04-29T16:09:46.365837-04:00 ubuntu2404 systemd-logind[711]: Removed session c1.
+2024-04-29T16:14:14.682533-04:00 ubuntu2404 systemd-logind[713]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-04-29T16:14:14.682536-04:00 ubuntu2404 systemd-logind[713]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2024-04-29T16:14:14.682540-04:00 ubuntu2404 systemd-logind[713]: New seat seat0.
+2024-04-29T16:14:14.926577-04:00 ubuntu2404 polkitd[696]: Loading rules from directory /etc/polkit-1/rules.d
+2024-04-29T16:14:14.928161-04:00 ubuntu2404 polkitd[696]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-04-29T16:14:14.980510-04:00 ubuntu2404 polkitd[696]: Finished loading, compiling and executing 15 rules
+2024-04-29T16:14:14.990291-04:00 ubuntu2404 polkitd[696]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-04-29T16:14:17.240206-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-04-29T16:14:17.307564-04:00 ubuntu2404 systemd-logind[713]: New session c1 of user gdm.
+2024-04-29T16:14:17.342260-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-04-29T16:14:20.951152-04:00 ubuntu2404 polkitd[696]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-04-29T16:14:39.109101-04:00 ubuntu2404 gdm-password]: gkr-pam: unable to locate daemon control file
+2024-04-29T16:14:39.109175-04:00 ubuntu2404 gdm-password]: gkr-pam: stashed password to try later in open session
+2024-04-29T16:14:39.128141-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-04-29T16:14:39.152965-04:00 ubuntu2404 systemd-logind[713]: New session 2 of user ubuntu.
+2024-04-29T16:14:39.198169-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-04-29T16:14:39.599659-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2024-04-29T16:14:40.240611-04:00 ubuntu2404 gnome-keyring-daemon[1764]: The Secret Service was already initialized
+2024-04-29T16:14:40.241109-04:00 ubuntu2404 gnome-keyring-daemon[1963]: discover_other_daemon: 1
+2024-04-29T16:14:40.241479-04:00 ubuntu2404 gnome-keyring-daemon[1764]: The PKCS#11 component was already initialized
+2024-04-29T16:14:40.242485-04:00 ubuntu2404 gnome-keyring-daemon[1966]: discover_other_daemon: 1
+2024-04-29T16:14:40.243426-04:00 ubuntu2404 gnome-keyring-daemon[1970]: discover_other_daemon: 1
+2024-04-29T16:14:43.256330-04:00 ubuntu2404 polkitd[696]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-04-29T16:14:44.645894-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-04-29T16:14:44.664255-04:00 ubuntu2404 systemd-logind[713]: Session c1 logged out. Waiting for processes to exit.
+2024-04-29T16:14:44.708994-04:00 ubuntu2404 systemd-logind[713]: Removed session c1.
+2024-04-29T16:14:44.724556-04:00 ubuntu2404 polkitd[696]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-04-29T16:15:01.133100-04:00 ubuntu2404 CRON[2781]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-04-29T16:15:01.136928-04:00 ubuntu2404 CRON[2781]: pam_unix(cron:session): session closed for user root
+2024-04-29T16:15:57.438422-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/visudo
+2024-04-29T16:15:57.439585-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-04-29T16:16:31.274538-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2024-04-29T16:16:37.697587-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+2024-04-29T16:16:37.698224-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-04-29T16:16:40.334685-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2024-04-29T16:16:50.382366-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install open-vm-tools
+2024-04-29T16:16:50.383999-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-04-29T16:17:01.147990-04:00 ubuntu2404 CRON[4094]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-04-29T16:17:01.159087-04:00 ubuntu2404 CRON[4094]: pam_unix(cron:session): session closed for user root
+2024-04-29T16:17:02.250225-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2024-04-29T16:17:06.599721-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/reboot
+2024-04-29T16:17:06.600149-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-04-29T16:17:06.610057-04:00 ubuntu2404 systemd-logind[713]: The system will reboot now!
+2024-04-29T16:17:06.629568-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2024-04-29T16:17:06.642065-04:00 ubuntu2404 systemd-logind[713]: System is rebooting.
+2024-04-29T16:17:06.686131-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2024-04-29T16:17:19.154778-04:00 ubuntu2404 systemd-logind[774]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-04-29T16:17:19.154782-04:00 ubuntu2404 systemd-logind[774]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2024-04-29T16:17:19.154786-04:00 ubuntu2404 systemd-logind[774]: New seat seat0.
+2024-04-29T16:17:19.264772-04:00 ubuntu2404 polkitd[754]: Loading rules from directory /etc/polkit-1/rules.d
+2024-04-29T16:17:19.268501-04:00 ubuntu2404 polkitd[754]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-04-29T16:17:19.292681-04:00 ubuntu2404 polkitd[754]: Finished loading, compiling and executing 15 rules
+2024-04-29T16:17:19.296738-04:00 ubuntu2404 polkitd[754]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-04-29T16:17:21.439990-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-04-29T16:17:21.471025-04:00 ubuntu2404 systemd-logind[774]: New session c1 of user gdm.
+2024-04-29T16:17:21.535973-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-04-29T16:17:23.782769-04:00 ubuntu2404 polkitd[754]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-04-29T16:17:39.323665-04:00 ubuntu2404 gdm-password]: gkr-pam: unable to locate daemon control file
+2024-04-29T16:17:39.323817-04:00 ubuntu2404 gdm-password]: gkr-pam: stashed password to try later in open session
+2024-04-29T16:17:39.338053-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-04-29T16:17:39.364664-04:00 ubuntu2404 systemd-logind[774]: New session 2 of user ubuntu.
+2024-04-29T16:17:39.412543-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-04-29T16:17:39.845538-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2024-04-29T16:17:40.324177-04:00 ubuntu2404 gnome-keyring-daemon[2013]: discover_other_daemon: 1
+2024-04-29T16:17:40.326287-04:00 ubuntu2404 gnome-keyring-daemon[1838]: The Secret Service was already initialized
+2024-04-29T16:17:40.328298-04:00 ubuntu2404 gnome-keyring-daemon[2019]: discover_other_daemon: 1
+2024-04-29T16:17:40.332489-04:00 ubuntu2404 gnome-keyring-daemon[1838]: The PKCS#11 component was already initialized
+2024-04-29T16:17:40.332918-04:00 ubuntu2404 gnome-keyring-daemon[2022]: discover_other_daemon: 1
+2024-04-29T16:17:42.358809-04:00 ubuntu2404 polkitd[754]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-04-29T16:17:43.347901-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-04-29T16:17:43.382231-04:00 ubuntu2404 systemd-logind[774]: Session c1 logged out. Waiting for processes to exit.
+2024-04-29T16:17:43.421701-04:00 ubuntu2404 polkitd[754]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-04-29T16:17:43.440556-04:00 ubuntu2404 systemd-logind[774]: Removed session c1.
+2024-04-29T16:18:18.037983-04:00 ubuntu2404 systemd-logind[774]: The system will power off now!
+2024-04-29T16:18:18.066511-04:00 ubuntu2404 systemd-logind[774]: System is powering down.
+2024-04-29T16:18:18.124555-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2024-04-29T16:20:00.964467-04:00 ubuntu2404 systemd-logind[764]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-04-29T16:20:00.964471-04:00 ubuntu2404 systemd-logind[764]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2024-04-29T16:20:00.964475-04:00 ubuntu2404 systemd-logind[764]: New seat seat0.
+2024-04-29T16:20:00.974318-04:00 ubuntu2404 polkitd[745]: Loading rules from directory /etc/polkit-1/rules.d
+2024-04-29T16:20:00.974323-04:00 ubuntu2404 polkitd[745]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-04-29T16:20:00.974336-04:00 ubuntu2404 polkitd[745]: Finished loading, compiling and executing 15 rules
+2024-04-29T16:20:00.974361-04:00 ubuntu2404 polkitd[745]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-04-29T16:20:03.428256-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-04-29T16:20:03.503188-04:00 ubuntu2404 systemd-logind[764]: New session c1 of user gdm.
+2024-04-29T16:20:03.560228-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-04-29T16:20:07.032789-04:00 ubuntu2404 polkitd[745]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-04-29T16:21:03.945924-04:00 ubuntu2404 gdm-password]: gkr-pam: unable to locate daemon control file
+2024-04-29T16:21:03.946040-04:00 ubuntu2404 gdm-password]: gkr-pam: stashed password to try later in open session
+2024-04-29T16:21:03.958385-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-04-29T16:21:03.981520-04:00 ubuntu2404 systemd-logind[764]: New session 2 of user ubuntu.
+2024-04-29T16:21:04.020751-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2024-04-29T16:21:04.526478-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2024-04-29T16:21:05.171700-04:00 ubuntu2404 gnome-keyring-daemon[1983]: The PKCS#11 component was already initialized
+2024-04-29T16:21:05.171807-04:00 ubuntu2404 gnome-keyring-daemon[1983]: The Secret Service was already initialized
+2024-04-29T16:21:05.172433-04:00 ubuntu2404 gnome-keyring-daemon[2180]: discover_other_daemon: 1
+2024-04-29T16:21:05.175150-04:00 ubuntu2404 gnome-keyring-daemon[2185]: discover_other_daemon: 1
+2024-04-29T16:21:05.179043-04:00 ubuntu2404 gnome-keyring-daemon[2183]: discover_other_daemon: 1
+2024-04-29T16:21:07.937360-04:00 ubuntu2404 polkitd[745]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-04-29T16:21:09.413440-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-04-29T16:21:09.432658-04:00 ubuntu2404 systemd-logind[764]: Session c1 logged out. Waiting for processes to exit.
+2024-04-29T16:21:09.500314-04:00 ubuntu2404 polkitd[745]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-04-29T16:21:09.513053-04:00 ubuntu2404 systemd-logind[764]: Removed session c1.
+2024-04-29T16:21:32.625896-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+2024-04-29T16:21:32.626630-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2024-04-29T16:21:38.398743-04:00 ubuntu2404 useradd[3309]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2024-04-29T16:21:42.821243-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2024-04-29T16:21:59.031389-04:00 ubuntu2404 systemd-logind[764]: The system will power off now!
+2024-04-29T16:21:59.074298-04:00 ubuntu2404 systemd-logind[764]: System is powering down.
+2024-04-29T16:21:59.152816-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2026-06-21T12:29:46.352030-04:00 ubuntu2404 systemd-logind[1019]: New seat seat0.
+2026-06-21T12:29:46.352041-04:00 ubuntu2404 systemd-logind[1019]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-06-21T12:29:46.352049-04:00 ubuntu2404 systemd-logind[1019]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-06-21T12:29:48.145871-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T12:29:48.163850-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T12:29:48.482347-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 15 rules
+2026-06-21T12:29:48.484012-04:00 ubuntu2404 polkitd[1003]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-06-21T12:30:03.952043-04:00 ubuntu2404 CRON[1356]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T12:30:04.142755-04:00 ubuntu2404 CRON[1356]: pam_unix(cron:session): session closed for user root
+2026-06-21T12:30:13.493619-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-06-21T12:30:13.558109-04:00 ubuntu2404 systemd-logind[1019]: New session c1 of user gdm.
+2026-06-21T12:30:13.598667-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-06-21T12:30:19.872957-04:00 ubuntu2404 polkitd[1003]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T12:30:26.724247-04:00 ubuntu2404 gdm-password]: gkr-pam: unable to locate daemon control file
+2026-06-21T12:30:26.724401-04:00 ubuntu2404 gdm-password]: gkr-pam: stashed password to try later in open session
+2026-06-21T12:30:26.738661-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T12:30:26.759968-04:00 ubuntu2404 systemd-logind[1019]: New session 3 of user ubuntu.
+2026-06-21T12:30:26.803738-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T12:30:27.307104-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2026-06-21T12:30:28.442778-04:00 ubuntu2404 gnome-keyring-daemon[2218]: discover_other_daemon: 1
+2026-06-21T12:30:28.444876-04:00 ubuntu2404 gnome-keyring-daemon[2031]: The Secret Service was already initialized
+2026-06-21T12:30:28.445036-04:00 ubuntu2404 gnome-keyring-daemon[2031]: The PKCS#11 component was already initialized
+2026-06-21T12:30:28.445499-04:00 ubuntu2404 gnome-keyring-daemon[2225]: discover_other_daemon: 1
+2026-06-21T12:30:28.447283-04:00 ubuntu2404 gnome-keyring-daemon[2226]: discover_other_daemon: 1
+2026-06-21T12:30:32.966671-04:00 ubuntu2404 polkitd[1003]: Registered Authentication Agent for unix-session:3 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T12:30:36.376890-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-06-21T12:30:36.404787-04:00 ubuntu2404 systemd-logind[1019]: Session c1 logged out. Waiting for processes to exit.
+2026-06-21T12:30:36.453608-04:00 ubuntu2404 polkitd[1003]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-06-21T11:30:36.830665-04:00 ubuntu2404 systemd-logind[1019]: Removed session c1.
+2026-06-21T11:30:47.104828-04:00 ubuntu2404 (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-06-21T11:32:35.822653-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+2026-06-21T11:32:35.824054-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T11:32:56.382766-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T11:35:01.038800-04:00 ubuntu2404 CRON[4500]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T11:35:01.043706-04:00 ubuntu2404 CRON[4500]: pam_unix(cron:session): session closed for user root
+2026-06-21T11:35:11.962031-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-06-21T11:35:11.965402-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T11:36:32.501650-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install open-vm-tools-desktop
+2026-06-21T11:36:32.502794-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T11:36:48.026510-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T11:45:01.058668-04:00 ubuntu2404 CRON[4801]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T11:45:01.065992-04:00 ubuntu2404 CRON[4801]: pam_unix(cron:session): session closed for user root
+2026-06-21T11:46:43.268745-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2026-06-21T11:47:43.745890-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:47:43.746340-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:47:43.747701-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:47:43.747744-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:47:43.765855-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 15 rules
+2026-06-21T11:47:43.766174-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:47:43.766206-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:47:43.766297-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:47:43.769423-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:47:43.796000-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 15 rules
+2026-06-21T11:47:57.296785-04:00 ubuntu2404 dbus-daemon[982]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-06-21T11:48:34.023223-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:48:34.023486-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:48:34.026992-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:48:34.028259-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:48:34.029958-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:48:34.034520-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:48:34.035804-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:48:34.035836-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:48:34.036692-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:48:34.042794-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:48:34.165925-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:48:34.173896-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:48:34.174039-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:48:34.174130-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:48:34.180062-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:48:34.180193-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:48:34.180277-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:48:34.180442-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:48:34.180590-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:48:34.185606-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:48:37.255326-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:48:37.258202-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:48:37.264689-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:48:37.264830-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:48:37.267230-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:48:37.268126-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:48:37.268983-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:48:37.269033-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:48:37.269136-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:48:37.281348-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:48:37.282396-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:48:37.282478-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:48:37.282552-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:48:37.283452-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:48:37.293657-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:48:37.293815-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:48:37.293928-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:48:37.297774-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:48:37.299115-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:48:37.301952-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:48:38.286684-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:48:38.294106-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:48:38.296430-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:48:38.296649-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:48:38.305422-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:48:38.310254-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:48:38.310310-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:48:38.312874-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:48:38.316630-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:48:38.322982-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:49:16.781597-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:49:16.781686-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:49:16.782523-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:49:16.783340-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:49:16.795390-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:49:16.796057-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:49:16.796097-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:49:16.797029-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:49:16.797123-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:49:16.799424-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:49:32.453020-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:49:32.453847-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:49:32.453882-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:49:32.453904-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:49:32.463386-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:49:32.463462-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:49:32.463486-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:49:32.469543-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:49:32.469725-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:49:32.470886-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:49:34.749495-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:49:34.752496-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:49:34.755088-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:49:34.755201-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:49:34.755242-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:49:34.755624-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:49:34.755846-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:49:34.757534-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:49:34.759238-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:49:34.759300-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:49:35.753692-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:49:35.753791-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:49:35.753816-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:49:35.753838-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:49:35.756954-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:49:35.758306-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:49:35.759329-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:49:35.759397-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:49:35.759422-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:49:35.762749-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:49:43.444941-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:49:43.446619-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:49:43.447299-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:49:43.447365-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:49:43.451102-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:49:43.452130-04:00 ubuntu2404 polkitd[1003]: Reloading rules
+2026-06-21T11:49:43.452263-04:00 ubuntu2404 polkitd[1003]: Collecting garbage unconditionally...
+2026-06-21T11:49:43.452288-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:49:43.452312-04:00 ubuntu2404 polkitd[1003]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:49:43.454518-04:00 ubuntu2404 polkitd[1003]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:53:12.772689-04:00 ubuntu2404 polkitd[34640]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T11:53:12.774427-04:00 ubuntu2404 polkitd[34640]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T11:53:12.776065-04:00 ubuntu2404 polkitd[34640]: Finished loading, compiling and executing 16 rules
+2026-06-21T11:53:12.782552-04:00 ubuntu2404 polkitd[34640]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-06-21T11:53:12.820056-04:00 ubuntu2404 polkitd[34640]: Registered Authentication Agent for unix-session:3 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T11:53:33.917858-04:00 ubuntu2404 systemd-logind[1019]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-06-21T11:53:33.934514-04:00 ubuntu2404 systemd-logind[1019]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-06-21T11:54:48.651525-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T11:55:01.150429-04:00 ubuntu2404 CRON[51299]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T11:55:01.156679-04:00 ubuntu2404 CRON[51299]: pam_unix(cron:session): session closed for user root
+2026-06-21T11:55:33.005178-04:00 ubuntu2404 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T11:55:33.008481-04:00 ubuntu2404 pkexec[51307]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-06-21T12:05:01.170543-04:00 ubuntu2404 CRON[51410]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T12:05:01.177212-04:00 ubuntu2404 CRON[51410]: pam_unix(cron:session): session closed for user root
+2026-06-21T12:14:52.783554-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2026-06-21T12:15:01.188382-04:00 ubuntu2404 CRON[51516]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T12:15:01.195398-04:00 ubuntu2404 CRON[51516]: pam_unix(cron:session): session closed for user root
+2026-06-21T12:15:29.162865-04:00 ubuntu2404 systemd-logind[1019]: The system will reboot now!
+2026-06-21T12:15:29.554168-04:00 ubuntu2404 systemd-logind[1019]: System is rebooting.
+2026-06-21T12:15:29.627219-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2026-06-21T12:16:03.951750-04:00 ubuntu2404 systemd-logind[999]: New seat seat0.
+2026-06-21T12:16:03.951752-04:00 ubuntu2404 systemd-logind[999]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-06-21T12:16:03.951754-04:00 ubuntu2404 systemd-logind[999]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-06-21T12:16:03.832187-04:00 ubuntu2404 polkitd[972]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T12:16:03.863726-04:00 ubuntu2404 polkitd[972]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T12:16:03.980530-04:00 ubuntu2404 polkitd[972]: Finished loading, compiling and executing 16 rules
+2026-06-21T12:16:03.985364-04:00 ubuntu2404 polkitd[972]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-06-21T12:16:06.255548-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-06-21T12:16:06.337688-04:00 ubuntu2404 systemd-logind[999]: New session c1 of user gdm.
+2026-06-21T12:16:06.427889-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-06-21T12:16:13.636305-04:00 ubuntu2404 polkitd[972]: Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T12:16:41.882766-04:00 ubuntu2404 gdm-password]: gkr-pam: unable to locate daemon control file
+2026-06-21T12:16:41.882979-04:00 ubuntu2404 gdm-password]: gkr-pam: stashed password to try later in open session
+2026-06-21T12:16:41.895335-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T12:16:41.917430-04:00 ubuntu2404 systemd-logind[999]: New session 2 of user ubuntu.
+2026-06-21T12:16:41.943305-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T12:16:42.541942-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2026-06-21T12:16:43.392575-04:00 ubuntu2404 gnome-keyring-daemon[1908]: The Secret Service was already initialized
+2026-06-21T12:16:43.393493-04:00 ubuntu2404 gnome-keyring-daemon[2121]: discover_other_daemon: 1
+2026-06-21T12:16:43.396745-04:00 ubuntu2404 gnome-keyring-daemon[2122]: discover_other_daemon: 1
+2026-06-21T12:16:43.401358-04:00 ubuntu2404 gnome-keyring-daemon[1908]: The PKCS#11 component was already initialized
+2026-06-21T12:16:43.401803-04:00 ubuntu2404 gnome-keyring-daemon[2125]: discover_other_daemon: 1
+2026-06-21T12:16:48.305470-04:00 ubuntu2404 polkitd[972]: Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T12:16:53.010952-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-06-21T12:16:53.041984-04:00 ubuntu2404 polkitd[972]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-06-21T12:16:53.123534-04:00 ubuntu2404 systemd-logind[999]: Session c1 logged out. Waiting for processes to exit.
+2026-06-21T12:16:53.167832-04:00 ubuntu2404 systemd-logind[999]: Removed session c1.
+2026-06-21T12:17:00.718605-04:00 ubuntu2404 CRON[2821]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T12:17:00.724990-04:00 ubuntu2404 CRON[2821]: pam_unix(cron:session): session closed for user root
+2026-06-21T12:17:56.911531-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install open-vm-tools-desktop
+2026-06-21T12:17:56.911947-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T12:18:06.178149-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T12:18:13.250396-04:00 ubuntu2404 systemd-logind[999]: The system will reboot now!
+2026-06-21T12:18:13.269677-04:00 ubuntu2404 systemd-logind[999]: System is rebooting.
+2026-06-21T12:18:13.310348-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2026-06-21T12:18:38.765475-04:00 ubuntu2404 systemd-logind[964]: New seat seat0.
+2026-06-21T12:18:38.765477-04:00 ubuntu2404 systemd-logind[964]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-06-21T12:18:38.765480-04:00 ubuntu2404 systemd-logind[964]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-06-21T12:18:38.765487-04:00 ubuntu2404 polkitd[925]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T12:18:38.765490-04:00 ubuntu2404 polkitd[925]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T12:18:38.765496-04:00 ubuntu2404 polkitd[925]: Finished loading, compiling and executing 16 rules
+2026-06-21T12:18:38.668419-04:00 ubuntu2404 polkitd[925]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-06-21T12:18:40.946161-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-06-21T12:18:40.962808-04:00 ubuntu2404 systemd-logind[964]: New session c1 of user gdm.
+2026-06-21T12:18:41.063811-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-06-21T12:18:45.746720-04:00 ubuntu2404 polkitd[925]: Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T12:19:20.919033-04:00 ubuntu2404 gdm-password]: gkr-pam: unable to locate daemon control file
+2026-06-21T12:19:20.919123-04:00 ubuntu2404 gdm-password]: gkr-pam: stashed password to try later in open session
+2026-06-21T12:19:20.933977-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T12:19:20.957627-04:00 ubuntu2404 systemd-logind[964]: New session 2 of user ubuntu.
+2026-06-21T12:19:21.000375-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T12:19:21.337740-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2026-06-21T12:19:22.182799-04:00 ubuntu2404 gnome-keyring-daemon[2006]: The PKCS#11 component was already initialized
+2026-06-21T12:19:22.185090-04:00 ubuntu2404 gnome-keyring-daemon[2206]: discover_other_daemon: 1
+2026-06-21T12:19:22.187225-04:00 ubuntu2404 gnome-keyring-daemon[2006]: The Secret Service was already initialized
+2026-06-21T12:19:22.187784-04:00 ubuntu2404 gnome-keyring-daemon[2207]: discover_other_daemon: 1
+2026-06-21T12:19:22.191769-04:00 ubuntu2404 gnome-keyring-daemon[2208]: discover_other_daemon: 1
+2026-06-21T12:19:25.557167-04:00 ubuntu2404 polkitd[925]: Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T12:19:28.099710-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-06-21T12:19:28.129992-04:00 ubuntu2404 polkitd[925]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-06-21T12:19:28.141036-04:00 ubuntu2404 systemd-logind[964]: Session c1 logged out. Waiting for processes to exit.
+2026-06-21T12:19:28.189021-04:00 ubuntu2404 systemd-logind[964]: Removed session c1.
+2026-06-21T12:19:38.427259-04:00 ubuntu2404 (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-06-21T12:22:09.686947-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl enable --now ssh
+2026-06-21T12:22:09.687326-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T12:22:10.811142-04:00 ubuntu2404 sshd[3549]: Server listening on 0.0.0.0 port 22.
+2026-06-21T12:22:10.811422-04:00 ubuntu2404 sshd[3549]: Server listening on :: port 22.
+2026-06-21T12:22:10.814259-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T12:25:01.897046-04:00 ubuntu2404 CRON[3650]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T12:25:01.901437-04:00 ubuntu2404 CRON[3650]: pam_unix(cron:session): session closed for user root
+2026-06-21T12:30:01.909503-04:00 ubuntu2404 CRON[3663]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T12:30:01.912176-04:00 ubuntu2404 CRON[3663]: pam_unix(cron:session): session closed for user root
+2026-06-21T12:35:01.918614-04:00 ubuntu2404 CRON[3685]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T12:35:01.923530-04:00 ubuntu2404 CRON[3685]: pam_unix(cron:session): session closed for user root
+2026-06-21T12:45:01.935439-04:00 ubuntu2404 CRON[3696]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T12:45:01.940843-04:00 ubuntu2404 CRON[3696]: pam_unix(cron:session): session closed for user root
+2026-06-21T12:55:01.951053-04:00 ubuntu2404 CRON[3713]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T12:55:01.956381-04:00 ubuntu2404 CRON[3713]: pam_unix(cron:session): session closed for user root
+2026-06-21T13:05:01.966352-04:00 ubuntu2404 CRON[3729]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T13:05:01.970965-04:00 ubuntu2404 CRON[3729]: pam_unix(cron:session): session closed for user root
+2026-06-21T13:15:01.980983-04:00 ubuntu2404 CRON[3740]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T13:15:01.986464-04:00 ubuntu2404 CRON[3740]: pam_unix(cron:session): session closed for user root
+2026-06-21T13:17:01.991333-04:00 ubuntu2404 CRON[3744]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T13:17:01.999107-04:00 ubuntu2404 CRON[3744]: pam_unix(cron:session): session closed for user root
+2026-06-21T13:19:02.086684-04:00 ubuntu2404 dbus-daemon[904]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-06-21T13:20:52.895382-04:00 ubuntu2404 sshd[3792]: error: kex_exchange_identification: read: Connection reset by peer
+2026-06-21T13:20:52.895629-04:00 ubuntu2404 sshd[3792]: Connection reset by 192.168.231.1 port 62331
+2026-06-21T13:21:30.986046-04:00 ubuntu2404 sshd[3793]: Connection closed by 192.168.231.1 port 55040
+2026-06-21T13:25:01.006709-04:00 ubuntu2404 CRON[3796]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T13:25:01.012082-04:00 ubuntu2404 CRON[3796]: pam_unix(cron:session): session closed for user root
+2026-06-21T13:26:43.454001-04:00 ubuntu2404 sshd[3799]: Connection closed by 192.168.231.1 port 65390
+2026-06-21T13:27:45.682128-04:00 ubuntu2404 sshd[3802]: Accepted password for ubuntu from 192.168.231.1 port 61656 ssh2
+2026-06-21T13:27:45.685485-04:00 ubuntu2404 sshd[3802]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T13:27:45.695974-04:00 ubuntu2404 systemd-logind[964]: New session 13 of user ubuntu.
+2026-06-21T13:28:14.165607-04:00 ubuntu2404 sshd[4003]: Connection closed by 192.168.231.1 port 51407
+2026-06-21T13:28:48.097075-04:00 ubuntu2404 sshd[4005]: Connection closed by 192.168.231.1 port 51872
+2026-06-21T13:28:59.150904-04:00 ubuntu2404 sshd[4007]: Connection closed by 192.168.231.1 port 51875
+2026-06-21T13:30:01.021027-04:00 ubuntu2404 CRON[4008]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T13:30:01.025703-04:00 ubuntu2404 CRON[4008]: pam_unix(cron:session): session closed for user root
+2026-06-21T13:35:01.032724-04:00 ubuntu2404 CRON[4025]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T13:35:01.036080-04:00 ubuntu2404 CRON[4025]: pam_unix(cron:session): session closed for user root
+2026-06-21T13:45:01.046737-04:00 ubuntu2404 CRON[4036]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T13:45:01.052236-04:00 ubuntu2404 CRON[4036]: pam_unix(cron:session): session closed for user root
+2026-06-21T13:55:01.061258-04:00 ubuntu2404 CRON[4053]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T13:55:01.068521-04:00 ubuntu2404 CRON[4053]: pam_unix(cron:session): session closed for user root
+2026-06-21T14:05:01.077453-04:00 ubuntu2404 CRON[4068]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T14:05:01.081491-04:00 ubuntu2404 CRON[4068]: pam_unix(cron:session): session closed for user root
+2026-06-21T14:15:01.092166-04:00 ubuntu2404 CRON[4079]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T14:15:01.104415-04:00 ubuntu2404 CRON[4079]: pam_unix(cron:session): session closed for user root
+2026-06-21T14:17:01.111539-04:00 ubuntu2404 CRON[4083]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T14:17:01.122665-04:00 ubuntu2404 CRON[4083]: pam_unix(cron:session): session closed for user root
+2026-06-21T14:18:10.407476-04:00 ubuntu2404 sshd[3912]: Received disconnect from 192.168.231.1 port 61656:11: disconnected by user
+2026-06-21T14:18:10.419115-04:00 ubuntu2404 sshd[3912]: Disconnected from user ubuntu 192.168.231.1 port 61656
+2026-06-21T14:18:10.422299-04:00 ubuntu2404 sshd[3802]: pam_unix(sshd:session): session closed for user ubuntu
+2026-06-21T14:18:10.446919-04:00 ubuntu2404 systemd-logind[964]: Session 13 logged out. Waiting for processes to exit.
+2026-06-21T14:18:10.452826-04:00 ubuntu2404 systemd-logind[964]: Removed session 13.
+2026-06-21T15:45:22.837334-04:00 ubuntu2404 CRON[4481]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T15:45:22.859842-04:00 ubuntu2404 CRON[4481]: pam_unix(cron:session): session closed for user root
+2026-06-21T15:45:22.882007-04:00 ubuntu2404 CRON[4484]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T15:45:22.894472-04:00 ubuntu2404 CRON[4484]: pam_unix(cron:session): session closed for user root
+2026-06-21T15:45:22.914790-04:00 ubuntu2404 CRON[4486]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T15:45:22.930887-04:00 ubuntu2404 CRON[4486]: pam_unix(cron:session): session closed for user root
+2026-06-21T15:49:29.865087-04:00 ubuntu2404 systemd-logind[964]: The system will power off now!
+2026-06-21T15:49:30.082106-04:00 ubuntu2404 systemd-logind[964]: System is powering down.
+2026-06-21T15:50:25.736706-04:00 ubuntu2404 systemd-logind[1214]: New seat seat0.
+2026-06-21T15:50:25.736711-04:00 ubuntu2404 systemd-logind[1214]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-06-21T15:50:25.736713-04:00 ubuntu2404 systemd-logind[1214]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-06-21T15:50:25.840801-04:00 ubuntu2404 polkitd[1070]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T15:50:25.846468-04:00 ubuntu2404 polkitd[1070]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T15:50:25.968306-04:00 ubuntu2404 polkitd[1070]: Finished loading, compiling and executing 16 rules
+2026-06-21T15:50:25.975335-04:00 ubuntu2404 polkitd[1070]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-06-21T15:50:28.175361-04:00 ubuntu2404 sshd[1537]: Server listening on 0.0.0.0 port 22.
+2026-06-21T15:50:28.175677-04:00 ubuntu2404 sshd[1537]: Server listening on :: port 22.
+2026-06-21T15:50:28.708400-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-06-21T15:50:28.723906-04:00 ubuntu2404 systemd-logind[1214]: New session c1 of user gdm.
+2026-06-21T15:50:28.842618-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-06-21T15:50:37.864757-04:00 ubuntu2404 polkitd[1070]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T15:51:29.463949-04:00 ubuntu2404 gdm-password]: gkr-pam: unable to locate daemon control file
+2026-06-21T15:51:29.467678-04:00 ubuntu2404 gdm-password]: gkr-pam: stashed password to try later in open session
+2026-06-21T15:51:29.480041-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T15:51:29.496385-04:00 ubuntu2404 systemd-logind[1214]: New session 2 of user ubuntu.
+2026-06-21T15:51:29.563088-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T15:51:30.001604-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2026-06-21T15:51:31.083864-04:00 ubuntu2404 gnome-keyring-daemon[2167]: The PKCS#11 component was already initialized
+2026-06-21T15:51:31.084411-04:00 ubuntu2404 gnome-keyring-daemon[2369]: discover_other_daemon: 1
+2026-06-21T15:51:31.085428-04:00 ubuntu2404 gnome-keyring-daemon[2368]: discover_other_daemon: 1
+2026-06-21T15:51:31.096633-04:00 ubuntu2404 gnome-keyring-daemon[2167]: The Secret Service was already initialized
+2026-06-21T15:51:31.097388-04:00 ubuntu2404 gnome-keyring-daemon[2372]: discover_other_daemon: 1
+2026-06-21T15:51:34.584041-04:00 ubuntu2404 polkitd[1070]: Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T15:51:36.299461-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-06-21T15:51:36.411303-04:00 ubuntu2404 polkitd[1070]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-06-21T15:51:36.493389-04:00 ubuntu2404 systemd-logind[1214]: Session c1 logged out. Waiting for processes to exit.
+2026-06-21T15:51:36.662472-04:00 ubuntu2404 systemd-logind[1214]: Removed session c1.
+2026-06-21T15:52:25.376222-04:00 ubuntu2404 sshd[3210]: error: kex_exchange_identification: read: Connection reset by peer
+2026-06-21T15:52:25.376428-04:00 ubuntu2404 sshd[3210]: Connection reset by 192.168.231.1 port 50065
+2026-06-21T15:52:27.686000-04:00 ubuntu2404 sshd[3208]: Accepted password for ubuntu from 192.168.231.1 port 50063 ssh2
+2026-06-21T15:52:27.688200-04:00 ubuntu2404 sshd[3208]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T15:52:27.698891-04:00 ubuntu2404 systemd-logind[1214]: New session 4 of user ubuntu.
+2026-06-21T15:53:05.372469-04:00 ubuntu2404 sshd[3369]: Connection closed by 192.168.231.1 port 50105
+2026-06-21T15:53:33.949585-04:00 ubuntu2404 sshd[3370]: Connection closed by 192.168.231.1 port 50140
+2026-06-21T15:54:21.660854-04:00 ubuntu2404 sshd[3371]: Connection closed by 192.168.231.1 port 55664
+2026-06-21T15:54:44.582039-04:00 ubuntu2404 sshd[3372]: Connection closed by 192.168.231.1 port 55666
+2026-06-21T15:55:01.924712-04:00 ubuntu2404 CRON[3373]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T15:55:01.929806-04:00 ubuntu2404 CRON[3373]: pam_unix(cron:session): session closed for user root
+2026-06-21T16:05:01.945826-04:00 ubuntu2404 CRON[3394]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T16:05:01.953168-04:00 ubuntu2404 CRON[3394]: pam_unix(cron:session): session closed for user root
+2026-06-21T16:15:01.974917-04:00 ubuntu2404 CRON[3414]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T16:15:01.983468-04:00 ubuntu2404 CRON[3414]: pam_unix(cron:session): session closed for user root
+2026-06-21T16:17:01.990684-04:00 ubuntu2404 CRON[3419]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T16:17:02.000572-04:00 ubuntu2404 CRON[3419]: pam_unix(cron:session): session closed for user root
+2026-06-21T16:25:01.032747-04:00 ubuntu2404 CRON[3435]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T16:25:01.041389-04:00 ubuntu2404 CRON[3435]: pam_unix(cron:session): session closed for user root
+2026-06-21T16:25:48.624329-04:00 ubuntu2404 sshd[3438]: Connection closed by 192.168.231.1 port 50977
+2026-06-21T16:27:13.062573-04:00 ubuntu2404 dbus-daemon[1020]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-06-21T16:30:01.050700-04:00 ubuntu2404 CRON[3457]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T16:30:01.064169-04:00 ubuntu2404 CRON[3457]: pam_unix(cron:session): session closed for user root
+2026-06-21T16:30:45.602373-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+2026-06-21T16:30:45.612259-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:30:53.756835-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:30:53.770376-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install -y apache2 openssh-server rsyslog acl
+2026-06-21T16:30:53.772377-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:31:10.568697-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:31:10.606577-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl enable --now apache2 ssh rsyslog
+2026-06-21T16:31:10.607232-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:31:12.569614-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:31:12.580089-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/setfacl -m u:ubuntu:rx /var/log /var/log/apache2
+2026-06-21T16:31:12.582524-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:31:12.586912-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:31:12.596238-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/setfacl -m u:ubuntu:r /var/log/auth.log /var/log/syslog
+2026-06-21T16:31:12.597296-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:31:12.601967-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:31:12.609243-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/setfacl -Rm u:ubuntu:rX /var/log/apache2
+2026-06-21T16:31:12.610600-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:31:12.614616-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:31:12.621812-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/setfacl -m d:u:ubuntu:rX /var/log/apache2
+2026-06-21T16:31:12.623033-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:31:12.626848-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:31:12.635700-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status apache2 ssh rsyslog
+2026-06-21T16:31:12.637085-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:31:24.476901-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:31:35.355468-04:00 ubuntu2404 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:31:35.357454-04:00 ubuntu2404 pkexec[5724]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-06-21T16:34:13.361375-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/apache2/access.log
+2026-06-21T16:34:13.363360-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:34:22.099843-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:34:22.107536-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-06-21T16:34:22.108852-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:34:23.696606-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:34:36.804921-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install curl
+2026-06-21T16:34:36.806453-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:34:43.856927-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:34:52.566550-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/apache2/access.log
+2026-06-21T16:34:52.567274-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:35:01.070133-04:00 ubuntu2404 CRON[5849]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T16:35:01.076835-04:00 ubuntu2404 CRON[5849]: pam_unix(cron:session): session closed for user root
+2026-06-21T16:36:06.287901-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T16:36:14.043119-04:00 ubuntu2404 sshd[5861]: Connection closed by 192.168.231.1 port 49912
+2026-06-21T16:36:56.821998-04:00 ubuntu2404 sshd[5862]: Connection closed by 192.168.231.1 port 49983
+2026-06-21T16:37:34.998797-04:00 ubuntu2404 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T16:37:35.002009-04:00 ubuntu2404 pkexec[5868]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-06-21T16:38:32.509407-04:00 ubuntu2404 sshd[5876]: Connection closed by 192.168.231.1 port 50678
+2026-06-21T16:39:01.384418-04:00 ubuntu2404 sshd[5877]: Connection closed by 192.168.231.1 port 54696
+2026-06-21T16:39:37.510241-04:00 ubuntu2404 sshd[5880]: Connection closed by 192.168.231.1 port 63783
+2026-06-21T16:40:25.296038-04:00 ubuntu2404 sshd[3311]: Received disconnect from 192.168.231.1 port 50063:11: disconnected by user
+2026-06-21T16:40:25.310074-04:00 ubuntu2404 sshd[3311]: Disconnected from user ubuntu 192.168.231.1 port 50063
+2026-06-21T16:40:25.376898-04:00 ubuntu2404 sshd[3208]: pam_unix(sshd:session): session closed for user ubuntu
+2026-06-21T16:40:25.567486-04:00 ubuntu2404 systemd-logind[1214]: Session 4 logged out. Waiting for processes to exit.
+2026-06-21T16:40:25.662770-04:00 ubuntu2404 systemd-logind[1214]: Removed session 4.
+2026-06-21T16:40:35.551743-04:00 ubuntu2404 systemd-logind[1214]: The system will power off now!
+2026-06-21T16:40:36.001770-04:00 ubuntu2404 systemd-logind[1214]: System is powering down.
+2026-06-21T16:40:36.141731-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2026-06-21T16:40:36.215112-04:00 ubuntu2404 sshd[1537]: Received signal 15; terminating.
+2026-06-21T17:41:25.321438-04:00 ubuntu2404 systemd-logind[1220]: New seat seat0.
+2026-06-21T17:41:25.321443-04:00 ubuntu2404 systemd-logind[1220]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-06-21T17:41:25.321448-04:00 ubuntu2404 systemd-logind[1220]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-06-21T17:41:25.321489-04:00 ubuntu2404 polkitd[1132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-06-21T17:41:25.321494-04:00 ubuntu2404 polkitd[1132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-06-21T17:41:25.221463-04:00 ubuntu2404 polkitd[1132]: Finished loading, compiling and executing 16 rules
+2026-06-21T17:41:25.229417-04:00 ubuntu2404 polkitd[1132]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-06-21T17:41:28.351817-04:00 ubuntu2404 sshd[1595]: Server listening on 0.0.0.0 port 22.
+2026-06-21T17:41:28.352214-04:00 ubuntu2404 sshd[1595]: Server listening on :: port 22.
+2026-06-21T17:41:28.796426-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-06-21T17:41:28.872552-04:00 ubuntu2404 systemd-logind[1220]: New session c1 of user gdm.
+2026-06-21T17:41:28.955970-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-06-21T17:41:36.659923-04:00 ubuntu2404 polkitd[1132]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T17:41:46.156122-04:00 ubuntu2404 gdm-password]: gkr-pam: unable to locate daemon control file
+2026-06-21T17:41:46.156315-04:00 ubuntu2404 gdm-password]: gkr-pam: stashed password to try later in open session
+2026-06-21T17:41:46.183962-04:00 ubuntu2404 gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T17:41:46.213709-04:00 ubuntu2404 systemd-logind[1220]: New session 2 of user ubuntu.
+2026-06-21T17:41:46.282993-04:00 ubuntu2404 (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T17:41:47.024453-04:00 ubuntu2404 gdm-password]: gkr-pam: unlocked login keyring
+2026-06-21T17:41:48.051938-04:00 ubuntu2404 gnome-keyring-daemon[2224]: The PKCS#11 component was already initialized
+2026-06-21T17:41:48.055605-04:00 ubuntu2404 gnome-keyring-daemon[2418]: discover_other_daemon: 1
+2026-06-21T17:41:48.084435-04:00 ubuntu2404 gnome-keyring-daemon[2224]: The Secret Service was already initialized
+2026-06-21T17:41:48.085118-04:00 ubuntu2404 gnome-keyring-daemon[2420]: discover_other_daemon: 1
+2026-06-21T17:41:48.088416-04:00 ubuntu2404 gnome-keyring-daemon[2421]: discover_other_daemon: 1
+2026-06-21T17:41:49.402373-04:00 ubuntu2404 polkitd[1132]: Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-06-21T17:41:52.258061-04:00 ubuntu2404 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-06-21T17:41:52.277710-04:00 ubuntu2404 systemd-logind[1220]: Session c1 logged out. Waiting for processes to exit.
+2026-06-21T17:41:52.345679-04:00 ubuntu2404 polkitd[1132]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-06-21T17:41:52.365171-04:00 ubuntu2404 systemd-logind[1220]: Removed session c1.
+2026-06-21T17:42:51.555927-04:00 ubuntu2404 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T17:42:51.558277-04:00 ubuntu2404 pkexec[3352]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-06-21T17:45:01.067100-04:00 ubuntu2404 CRON[3369]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T17:45:01.080322-04:00 ubuntu2404 CRON[3369]: pam_unix(cron:session): session closed for user root
+2026-06-21T17:46:16.690805-04:00 ubuntu2404 sshd[3372]: Accepted password for ubuntu from 192.168.231.1 port 58225 ssh2
+2026-06-21T17:46:16.695580-04:00 ubuntu2404 sshd[3372]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T17:46:16.716700-04:00 ubuntu2404 systemd-logind[1220]: New session 5 of user ubuntu.
+2026-06-21T17:53:13.192057-04:00 ubuntu2404 sshd[3503]: Connection closed by 192.168.231.1 port 60488
+2026-06-21T17:54:23.771355-04:00 ubuntu2404 dbus-daemon[1081]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-06-21T17:55:01.132028-04:00 ubuntu2404 CRON[3523]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T17:55:01.156899-04:00 ubuntu2404 CRON[3523]: pam_unix(cron:session): session closed for user root
+2026-06-21T18:02:03.895889-04:00 ubuntu2404 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl enable --now ssh apache2
+2026-06-21T18:02:03.930412-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-06-21T18:02:10.476039-04:00 ubuntu2404 sudo: pam_unix(sudo:session): session closed for user root
+2026-06-21T18:02:47.218020-04:00 ubuntu2404 sshd[4273]: Connection closed by 192.168.231.1 port 58312
+2026-06-21T18:04:24.267427-04:00 ubuntu2404 sshd[4274]: Connection closed by 192.168.231.1 port 54850
+2026-06-21T18:05:01.229816-04:00 ubuntu2404 CRON[4275]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-06-21T18:05:01.249086-04:00 ubuntu2404 CRON[4275]: pam_unix(cron:session): session closed for user root
+2026-06-21T18:05:01.743475-04:00 ubuntu2404 sshd[4278]: Connection reset by authenticating user ubuntu 192.168.231.1 port 52828 [preauth]
+2026-06-21T18:08:22.292693-04:00 ubuntu2404 sshd[4284]: Accepted password for ubuntu from 192.168.231.1 port 57984 ssh2
+2026-06-21T18:08:22.305928-04:00 ubuntu2404 sshd[4284]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T18:08:22.411142-04:00 ubuntu2404 systemd-logind[1220]: New session 8 of user ubuntu.
+2026-06-21T18:08:23.960874-04:00 ubuntu2404 sshd[4284]: pam_unix(sshd:session): session closed for user ubuntu
+2026-06-21T18:08:24.003940-04:00 ubuntu2404 systemd-logind[1220]: Session 8 logged out. Waiting for processes to exit.
+2026-06-21T18:08:24.018323-04:00 ubuntu2404 systemd-logind[1220]: Removed session 8.
+2026-06-21T18:10:41.216561-04:00 ubuntu2404 sshd[4338]: Connection closed by 192.168.231.1 port 57823
+2026-06-21T18:11:05.461158-04:00 ubuntu2404 sshd[4339]: Accepted password for ubuntu from 192.168.231.1 port 64885 ssh2
+2026-06-21T18:11:05.463623-04:00 ubuntu2404 sshd[4339]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-06-21T18:11:05.479553-04:00 ubuntu2404 systemd-logind[1220]: New session 9 of user ubuntu.

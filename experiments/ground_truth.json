@@ -1,0 +1,11 @@
+{
+  "dataset": "shared_logs laboratory sample with SIEM exports",
+  "expected_incidents": {
+    "SSH brute force suspicion|192.168.231.1": 1,
+    "Web reconnaissance|192.168.231.1": 1,
+    "HTTP connection alert|192.168.231.1": 2,
+    "Suspicious system activity|192.168.231.1": 1,
+    "Suspicious system activity|unknown": 1,
+    "SIEM correlated alert|192.168.231.1": 2
+  }
+}
