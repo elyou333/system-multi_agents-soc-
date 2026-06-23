@@ -23,13 +23,13 @@
     Elastic / Splunk / Suricata / Apache / auth.log / syslog
                       |
               Agent Extracteur
-                      | normalisation Pydantic
+                      | parsing Python + note Phi-3 bornée
               Agent Analyseur
-                      | règles + corrélation + explication SLM
+                      | règles Python + explication Phi-3
               Agent Rapporteur
-                      | Markdown français
+                      | structure Python + synthèse Phi-3
               Agent Exécuteur
-                      | actions simulées
+                      | liste blanche Python + proposition Phi-3
                       v
            SQLite / audit / Dashboard
 
@@ -44,7 +44,7 @@ afin d'enregistrer un lot cohérent et son statut.
 
 ## Frontières de confiance
 
-Les journaux et la sortie du SLM sont non fiables. Les parseurs ignorent les
+Les journaux et toutes les sorties du SLM sont non fiables. Les parseurs ignorent les
 lignes invalides et les erreurs sont inscrites dans runs.errors. L'analyse
 déterministe conserve l'autorité sur le type, la sévérité et la confiance.
 L'exécuteur ne possède aucune primitive de blocage ou d'isolation réelle.

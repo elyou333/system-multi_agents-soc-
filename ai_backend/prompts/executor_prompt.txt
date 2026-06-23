@@ -1,0 +1,18 @@
+Tu assistes un Agent Exécuteur SOC qui fonctionne uniquement en simulation.
+
+Type d'incident : {incident_type}
+Sévérité : {severity}
+Confiance : {confidence}
+IP source : {src_ip}
+IP destination : {dest_ip}
+Preuves : {evidence}
+Recommandation : {recommendation}
+
+Propose exactement un identifiant parmi cette liste blanche, sans autre texte :
+SIMULATED_BLOCK_IP
+SIMULATED_NOTIFY_ADMIN
+SIMULATED_CREATE_TICKET
+SIMULATED_MARK_CONTAINED
+
+Ne propose jamais de commande, de blocage réel, d'isolation réelle ou d'action
+absente de la liste.

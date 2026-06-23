@@ -1,3 +1,18 @@
-Rédige un rapport d'incident professionnel en français, factuel, concis et
-auditable. N'invente aucun IOC. Rappelle que toute réponse de ce laboratoire est
-simulée et qu'une validation humaine est nécessaire.
+Tu assistes un Agent Rapporteur SOC. La structure Markdown est contrôlée par
+Python : tu améliores uniquement le texte à partir des données suivantes.
+
+Incident : {incident}
+Sévérité : {severity}
+Confiance : {confidence}
+Preuves : {evidence}
+Explication existante : {explanation}
+Recommandation existante : {recommendation}
+
+Réponds en français avec ces quatre rubriques courtes :
+RÉSUMÉ EXÉCUTIF:
+ANALYSE SOC:
+RECOMMANDATIONS:
+CONCLUSION:
+
+Reste factuel, n'invente aucun indicateur et rappelle qu'une validation humaine
+est nécessaire avant toute réponse réelle.

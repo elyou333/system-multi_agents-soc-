@@ -13,6 +13,12 @@ class Settings:
     log_mode: str
     ollama_model: str
     ollama_enabled: bool
+    ollama_base_url: str
+    llm_timeout: int
+    use_llm_in_extractor: bool
+    use_llm_in_analyzer: bool
+    use_llm_in_reporter: bool
+    use_llm_in_executor: bool
     correlation_window_minutes: int
     ssh_timeout: int
     soc_host: str
@@ -75,6 +81,12 @@ def get_settings(mode: str | None = None) -> Settings:
         log_mode=(mode or os.getenv("LOG_MODE", "local")).lower(),
         ollama_model=os.getenv("OLLAMA_MODEL", "phi3"),
         ollama_enabled=os.getenv("OLLAMA_ENABLED", "true").lower() in {"1", "true", "yes"},
+        ollama_base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
+        llm_timeout=int(os.getenv("LLM_TIMEOUT", "30")),
+        use_llm_in_extractor=os.getenv("USE_LLM_IN_EXTRACTOR", "true").lower() in {"1", "true", "yes"},
+        use_llm_in_analyzer=os.getenv("USE_LLM_IN_ANALYZER", "true").lower() in {"1", "true", "yes"},
+        use_llm_in_reporter=os.getenv("USE_LLM_IN_REPORTER", "true").lower() in {"1", "true", "yes"},
+        use_llm_in_executor=os.getenv("USE_LLM_IN_EXECUTOR", "true").lower() in {"1", "true", "yes"},
         correlation_window_minutes=int(os.getenv("CORRELATION_WINDOW_MINUTES", "10")),
         ssh_timeout=int(os.getenv("SSH_TIMEOUT", "10")),
         soc_host=os.getenv("SOC_HOST", "192.168.231.128"),

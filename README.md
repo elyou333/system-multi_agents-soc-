@@ -2,8 +2,8 @@
 
 Prototype académique d'assistant SOC local orchestré avec LangGraph. Il collecte
 des journaux Suricata, Apache et Linux, les normalise, corrèle les événements,
-produit une explication avec Ollama et phi3 (avec repli déterministe), génère des
-rapports Markdown et simule des réponses entièrement auditables.
+assiste les quatre agents avec Ollama et Phi-3 (avec repli déterministe), génère
+des rapports Markdown et simule des réponses entièrement auditables.
 
 > **Sécurité :** aucun pare-feu, service, fichier système ou hôte n'est modifié.
 > Les blocages, notifications, tickets et confinements sont des simulations
@@ -17,6 +17,10 @@ ELK/Splunk + VM SOC/Suricata + VM victime/Apache/auth → Extracteur → Analyse
 Le modèle local explique les décisions, mais ne choisit ni le type ni la
 sévérité : ces décisions restent déterministes et auditables. Voir
 [l'architecture](docs/architecture.md).
+
+Tous les agents sont IA-assistés par Phi-3 via Ollama, mais les décisions
+critiques restent contrôlées par des règles Python afin de garantir
+l'explicabilité, la sécurité et la traçabilité.
 
 ## Installation Windows
 
@@ -76,3 +80,5 @@ labels, les seuils concernés peuvent évoluer dans des bornes strictes de 3 à 
 Les blocages, isolations et remédiations restent toujours des simulations.
 
 Guide détaillé : [installation des VM et des SIEM](docs/installation_vms_siem.md).
+
+Rapport complet : [architecture, agents et expérimentation](docs/rapport_final_projet.md).

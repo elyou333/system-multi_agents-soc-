@@ -1,10 +1,12 @@
 from __future__ import annotations
 
+import re
 from collections import defaultdict
 from typing import Iterable
 
 from ai_backend.adaptive import load_adaptive_profile
 from ai_backend.config import Settings
+from ai_backend.llm_utils import ask_phi3, build_prompt
 from ai_backend.models import Incident, NormalizedEvent, SOCState
 
 SEVERITY_ORDER = {"Low": 1, "Medium": 2, "High": 3, "Critical": 4}
@@ -25,24 +27,37 @@ def _fallback(incident: Incident, count: int) -> tuple[str, str]:
 
 def _llm_enrich(incident: Incident, count: int, settings: Settings) -> tuple[str, str]:
     fallback = _fallback(incident, count)
-    if not settings.ollama_enabled:
+    if not getattr(settings, "use_llm_in_analyzer", True):
         return fallback
     try:
-        from langchain_ollama import ChatOllama
-        prompt = (
-            "Tu es analyste SOC. Réponds en français avec exactement deux paragraphes courts, "
-            "le premier commençant par EXPLICATION: et le second par RECOMMANDATION:. "
-            f"Incident={incident.incident_type}; sévérité={incident.severity}; confiance={incident.confidence}; "
-            f"source={incident.src_ip}; destination={incident.dest_ip}; nombre de preuves={count}; "
-            f"preuves={incident.evidence[:5]}. N'invente aucun fait."
-        )
-        content = ChatOllama(model=settings.ollama_model, temperature=0).invoke(prompt).content.strip()
-        if "RECOMMANDATION:" not in content:
-            return content, fallback[1]
-        explanation, recommendation = content.split("RECOMMANDATION:", 1)
-        return explanation.replace("EXPLICATION:", "").strip(), recommendation.strip()
-    except Exception:
+        prompt = build_prompt("analyzer_prompt.txt", {
+            "incident_type": incident.incident_type,
+            "severity": incident.severity,
+            "confidence": incident.confidence,
+            "src_ip": incident.src_ip or "inconnue",
+            "dest_ip": incident.dest_ip or "inconnue",
+            "affected_host": incident.affected_host or "inconnu",
+            "mitre_tactic": incident.mitre_tactic or "non déterminée",
+            "mitre_technique": incident.mitre_technique or "non déterminée",
+            "evidence": incident.evidence[:5],
+        })
+    except (OSError, ValueError):
         return fallback
+    fallback_text = f"EXPLICATION: {fallback[0]}\nRECOMMANDATION: {fallback[1]}"
+    content = ask_phi3(prompt, settings, fallback_text)
+    if len(content) > 1800 or any(marker in content for marker in (
+        "\nTu es ", "\nType :", "\nSévérité :", "Réponds en français",
+    )):
+        return fallback
+    match = re.fullmatch(
+        r"\s*EXPLICATION\s*:\s*(?P<explanation>.+?)\s*"
+        r"RECOMMANDATION\s*:\s*(?P<recommendation>.+?)\s*",
+        content,
+        flags=re.DOTALL,
+    )
+    if not match:
+        return fallback
+    return match.group("explanation").strip(), match.group("recommendation").strip()
 
 
 def _make_incident(events: list[NormalizedEvent], indexes: list[int], incident_type: str, title: str,

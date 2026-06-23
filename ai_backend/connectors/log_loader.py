@@ -22,12 +22,15 @@ def _read_text_log(path: Path, parser: Callable[[str, str], NormalizedEvent | No
                 break
             if not line.strip():
                 continue
-            raw.append({"source_file": str(path), "line": line.rstrip()})
+            raw_item = {"source_file": str(path), "line": line.rstrip(), "recognized": "false"}
+            raw.append(raw_item)
             try:
                 event = parser(line, str(path))
                 if event:
                     events.append(event)
+                    raw_item["recognized"] = "true"
             except (ValueError, TypeError) as exc:
+                raw_item["recognized"] = "error"
                 errors.append(f"{path.name}:{line_number}: {exc}")
     return raw, events, errors
 
